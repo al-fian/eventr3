@@ -12,6 +12,12 @@ const HomePage = () => {
     return (
         <Segment inverted textAlign='center' vertical className='masthead'>
             <Container text>
+                <p>
+                    A DEMO social media website.<br/>
+                    Technologies used: <br/>
+                    (Backend) ASPNET Core 6, C#, SignalR, PostGreSQL, Restful Web API <br/>
+                    (Frontend) ReactJS, Typescript, MobX
+                </p>
                 <Header as='h1' inverted>
                     <Image size='massive' src='/assets/logo.png' alt='logo' style={{marginBottom: 12}} />
                     Eventr
